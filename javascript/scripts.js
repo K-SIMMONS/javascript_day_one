@@ -28,6 +28,23 @@ alert(object.number);
 alert(object['number'])
 
 
+h1.style.color = color;
+h1.classlist.add('active')
+h1.innerHTML = 'intro to cool websites that do things';
+
+console.log(h1);
+let howManyClicks = 0;
+
+
+//listener
+h1.addEventListener('click');
+
+//functions
+function addAClick() {
+    howManyClicks += 1;
+    alert(howManyClicks);
+}
+
 
 
 //to troubleshoot an error, inspect your browser and click on the console tab which will then display the error. It will show you the exact line the error is found
